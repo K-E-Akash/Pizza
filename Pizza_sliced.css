@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    
+}
+#frame {
+    width: 100%;
+    height: 864px;
+    position: relative;
+    background-color: #9ae683;
+}
+
+.outer_pan_border {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgb(58, 60, 64);
+    border: 0.1px black solid;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+}
+
+.inner_pan_border {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: rgb(58, 60, 64);
+    border: 0.1px black solid;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+    box-shadow: 0px 0px 200px 20px rgb(21, 21, 21) inset;
+}
+
+#full-pizza {
+    z-index: 1;
+}
+
+.pizza_base {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+    background-image: conic-gradient(#eaac4f 00deg 90deg, transparent 90deg 150deg, #eaac4f 150deg 360deg);
+}
+
+.pizza_sauce {
+    width: 430px;
+    height: 430px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+    background-image: conic-gradient(#ed2c00 00deg 90deg, transparent 90deg 150deg, #ed2c00 150deg 360deg);
+}
+
+#sliced-pizza {
+    z-index: -1;
+}
+
+.pizza_base_2 {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-40% , -45% );
+    background-image: conic-gradient(transparent 00deg 90deg, #eaac4f 90deg 150deg,transparent 150deg 360deg);
+}
+
+.pizza_sauce_2 {
+    width: 430px;
+    height: 430px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-39% , -44% );
+    background-image: conic-gradient(transparent 0deg 90deg, #ed2c00 90deg 150deg, transparent 150deg 360deg);
+}
+
+.paneer {
+    width: 45px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: #FDFFF6;
+    /* box-shadow: 0px 0px 5px 1px rgb(237, 237, 237); */
+}
+
+#p1 {
+    position: absolute;
+    top: 30% ;
+    left: 52% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+}
+
+#p2 {
+    position: absolute;
+    top: 50% ;
+    left: 38% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+}
+
+#p3 {
+    position: absolute;
+    top: 65% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(135deg);
+}
+
+#p4 {
+    position: absolute;
+    top: 62% ;
+    left: 59% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+}
+
+#p5 {
+    position: absolute;
+    top: 65% ;
+    left: 42% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+}
+
+#p6 {
+    position: absolute;
+    top: 40% ;
+    left: 58% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+}
+
+#p7 {
+    position: absolute;
+    top: 50% ;
+    left: 46% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+}
+
+#p8 {
+    position: absolute;
+    top: 36% ;
+    left: 42% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+}
+
+.onion {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-image: radial-gradient(transparent 26px, pink 10px);
+    box-shadow: 0px 0px 0px 2px rgb(215, 87, 109);
+}
+ 
+#o1 {
+    position: absolute;
+    top: 35% ;
+    left: 48% ;
+    transform: translate(-50%, -50%);
+}
+
+#o2 {
+    position: absolute;
+    top: 42% ;
+    left: 55% ;
+    transform: translate(-50%, -50%);
+}
+#o3 {
+    position: absolute;
+    top: 60% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+}
+#o4 {
+    position: absolute;
+    top: 58% ;
+    left: 42% ;
+    transform: translate(-50%, -50%);
+}
+#o5 {
+    position: absolute;
+    top: 58% ;
+    left: 63% ;
+    transform: translate(-50%, -50%);
+}
+
+.olives {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-image: radial-gradient(transparent 8px, rgb(10, 25, 1) 8px);
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+#oli1 {
+    position: absolute;
+    top: 57% ;
+    left: 57% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli2 {
+    position: absolute;
+    top: 47% ;
+    left: 61.5% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli3 {
+    position: absolute;
+    top: 35% ;
+    left: 57% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli4 {
+    position: absolute;
+    top: 45% ;
+    left: 48% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli5 {
+    position: absolute;
+    top: 38% ;
+    left: 40% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli6 {
+    position: absolute;
+    top: 60% ;
+    left: 46% ;
+    transform: translate(-50%, -50%);
+}
+
+#oli7 {
+    position: absolute;
+    top: 71% ;
+    left: 49% ;
+    transform: translate(-50%, -50%);
+}
+
+.bell_peppers {
+    width: 10px;
+    height: 60px;
+    background-color: green;
+    box-shadow: -3px 0px 0px rgb(0, 82, 0);
+    border-radius: 2px;
+}
+
+#b1 {
+    position: absolute;
+    top: 66% ;
+    left: 46% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-10deg);
+}
+
+#b2 {
+    position: absolute;
+    top: 65% ;
+    left: 62% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(25deg);
+}
+
+#b3 {
+    position: absolute;
+    top: 40% ;
+    left: 51% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-25deg);
+}
+
+#b4 {
+    position: absolute;
+    top: 45% ;
+    left: 43.5% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(80deg);
+}
+
+#b5 {
+    position: absolute;
+    top: 28% ;
+    left: 45% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg);
+} 
+
+#b6 {
+    position: absolute;
+    top: 30% ;
+    left: 58% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(150deg);
+} 
+
+.corn {
+    width: 18px;
+    height: 25px;
+    background-color: rgb(255, 247, 0);
+    box-shadow: 0px 0px 10px 3px rgb(226, 215, 91) inset;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
+
+#c1 {
+    position: absolute;
+    top: 40% ;
+    left: 61.3% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(50deg);
+} 
+
+#c2 {
+    position: absolute;
+    top: 55% ;
+    left: 59% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+} 
+
+#c3 {
+    position: absolute;
+    top: 62% ;
+    left: 64% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+} 
+
+#c4 {
+    position: absolute;
+    top: 37% ;
+    left: 51.5% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(75deg);
+} 
+
+#c5 {
+    position: absolute;
+    top: 28% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(120deg);
+} 
+
+#c6 {
+    position: absolute;
+    top: 45.5% ;
+    left: 57.4% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(50deg);
+} 
+
+#c7 {
+    position: absolute;
+    top: 45% ;
+    left: 38% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(10deg);
+} 
+
+#c8 {
+    position: absolute;
+    top: 43% ;
+    left: 44% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-15deg);
+} 
+
+#c9 {
+    position: absolute;
+    top: 63% ;
+    left: 47% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+} 
+
+#c10 {
+    position: absolute;
+    top: 52% ;
+    left: 44% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-95deg);
+} 
+
+#c11 {
+    position: absolute;
+    top: 31% ;
+    left: 41.5% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(135deg);
+} 
+
+#c12 {
+    position: absolute;
+    top: 60% ;
+    left: 38% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+} 
+
+#c13 {
+    position: absolute;
+    top: 69% ;
+    left: 53% ;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+} 
